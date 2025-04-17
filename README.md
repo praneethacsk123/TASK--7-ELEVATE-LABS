@@ -1,13 +1,16 @@
 # TASK--7-ELEVATE-LABS
 SEVENTH TASK- COMBINATION OF SQL AND PYTHON
-
+DATA ANALYSIS:
+1.GRAPES ARE SOLD IN HIGHEST QUANTITY,REVENUE.
+2.APPLES ARE SOLD LESS IN QUANTITY,REVENUE.
+3.HONEY DEW IS TOO COSTLY
 INTERVIEW QUESTIONS
 How did you connect Python to a database?
 *import sqlite3 conn = sqlite3.connect("sales_data.db")
 What SQL query did you run?
-* Wrote an SQL query to calculate the total quantity sold for each fruit using `SUM(quantity)` grouped by `product`.
-* Wrote an SQL query to calculate the average price for each fruit using `AVG(price)` grouped by `product`.
-*Wrote an SQL query to calculate the total revenue for each fruit by multiplying `quantity` by `price` and summing the results.
+* Wrote an SQL query to calculate the total quantity sold for each fruit using SUM(quantity) grouped by product.
+* Wrote an SQL query to calculate the average price for each fruit using AVG(price) grouped by product.
+*Wrote an SQL query to calculate the total revenue for each fruit by multiplying quantity by price and summing the results.
 What does GROUP BY do?
 IT GROUPS ELEMENTS IN THAT PARTICULAR COLUMN
 How did you calculate revenue?
